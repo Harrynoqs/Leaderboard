@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  border: 1px solid black; 
+}
+
+main {
+  border: 5px solid;
+  margin-top: 20vh;
+}
+
+.leaderboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 120vh;
+}
+
+.refresh {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 1.5rem; 
+}
+
+.refresh {
+  margin: auto;
+  height: 24px;  
+  font-size: 1rem; 
+  padding: 2px;
+}
+
+.left {
+  width: 45%;
+  padding: 10px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  width: 45%;
+}
+
+.tablescore {
+  border: 0.5px solid gray;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.tablescore td {
+  border: 1px solid rgb(240, 231, 231);
+  padding: 5px;
+}
+
+.tablescore tr:nth-child(even) {
+  background-color: gray;
+}
+
+.tablescore tr:hover {
+  background-color: #ddd;
+}
+
+.addscore {
+  text-align: start;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.inputtext {
+  width: 80%;
+  height: 2rem;
+}
+
+.inputtext:focus {
+  outline: #fdf7fd;
+}
+
+.refresh:hover {
+  cursor: pointer;
+  color: #716b70;
+}
+
+.inputbutton {
+  height: 2rem;
+  width: 4rem;
+  border: 1px solid black;
+}
+
+.inputbutton:hover {
+  cursor: pointer;
+  background-color: lightgray;  
+} 
