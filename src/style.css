@@ -11,7 +11,7 @@ body {
   background-color: white;
   font-family: 'Poppins', sans-serif;
   color: black;
-  border: 1px solid black; 
+  border: 1px solid black;
 }
 
 main {
@@ -20,8 +20,8 @@ main {
 }
 
 .wrapper {
-    margin: 0 auto;
-    width: 80%;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .leaderboard {
@@ -35,17 +35,14 @@ main {
 .refresh {
   display: flex;
   justify-content: space-between;
+  margin: auto;
+  height: 24px;
+  font-size: 1rem;
+  padding: 2px;
 }
 
 h2 {
-  font-size: 1.5rem; 
-}
-
-.refresh {
-  margin: auto;
-  height: 24px;  
-  font-size: 1rem; 
-  padding: 2px;
+  font-size: 1.5rem;
 }
 
 .left {
@@ -107,5 +104,5 @@ h2 {
 
 .inputbutton:hover {
   cursor: pointer;
-  background-color: lightgray;  
-} 
+  background-color: lightgray;
+}
