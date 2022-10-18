@@ -18,11 +18,18 @@ main {
   margin-top: 20vh;
 }
 
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    border: 2px solid red;
+}
+
 .leaderboard {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 120vh;
+  margin-left: 2rem;
 }
 
 .refresh {
