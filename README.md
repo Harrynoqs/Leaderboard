@@ -1,12 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
-## Leaderboard: setup project
+## Leaderboard: Hit the API
 
 > Description the project.
 
 In this activity I set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. 
 I developed a first working version of the app following a wireframe, but without styling - just focus on functionality.
+C
+
 
 
 ## Built With
@@ -21,6 +23,7 @@ I developed a first working version of the app following a wireframe, but withou
 ## Technologies used
 - Visual Studio Code
 - GitHub
+- webpack
 
 ## Live Demo (if available)
 
