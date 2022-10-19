@@ -32,17 +32,13 @@ main {
   margin-left: 2rem;
 }
 
-.refresh {
+.refresh-container {
   display: flex;
   justify-content: space-between;
   margin: auto;
   height: 24px;
   font-size: 1rem;
   padding: 2px;
-}
-
-h2 {
-  font-size: 1.5rem;
 }
 
 .left {
@@ -63,12 +59,17 @@ h2 {
   margin-top: 1rem;
 }
 
-.tablescore li:nth-child(even) {
-  background-color: gray;
+.tablescore td {
+  padding: 0.3rem;
+  font-size: 1rem;
 }
 
-.tablescore li:hover {
-  background-color: #ddd;
+.tablescore tr:nth-child(even) {
+  background-color: #e6e0e0;
+}
+
+.tablescore tr:hover {
+  color: blue;
 }
 
 .addscore {
@@ -93,7 +94,7 @@ h2 {
 
 .refresh:hover {
   cursor: pointer;
-  color: #716b70;
+  color: darkgray;
 }
 
 .inputbutton {
