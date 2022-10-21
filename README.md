@@ -7,7 +7,7 @@
 
 In this activity I set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. 
 I developed a first working version of the app following a wireframe, but without styling - just focus on functionality.
-C
+I finalized the Leaderboard list app, adding the styles needed to make it look great.
 
 
 
