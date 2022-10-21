@@ -23,7 +23,7 @@ main {
   margin: 0 auto;
   width: 80%;
   margin-top: 10vh;
-  border-radius: 10%
+  border-radius: 10%;
 }
 
 .leaderboard {
@@ -58,7 +58,7 @@ main {
 .tablescore {
   border: 0.5px solid gray;
   width: 100%;
-  margin-top: 1rem;  
+  margin-top: 1rem;
 }
 
 .tablescore td {
